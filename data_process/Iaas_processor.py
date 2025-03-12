@@ -271,5 +271,5 @@ flow_configs = flow_configs,
                           truncate_before_rollback=True, # extract the sequence before the roll back action for abnormal flows, default yes
                           save_normal_after_truncation=True,
                           slide=False) # if do sliding window, recommend no
-processor.run(output_dir='../data/IaaS_v12', output_filename='IaaS_v12_sequences.csv') #数据集名字Iaa
+processor.run(output_dir='../data/IaaS_v13', output_filename='IaaS_v13_sequences.csv') #数据集名字Iaa
 # anomaly_ratio: the raio between selected anomaly/normal
