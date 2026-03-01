@@ -14,7 +14,7 @@
 - 🌳 **Hierarchical Execution Recovery**: LLM automatically derives execution hierarchies (entity, action, status) from log templates, decomposing flat log sequence into coherent execution chunks (KRONE-Seqs) at entity, action, and status levels.
 - 🔍 **Modular Multi-Level Detection**: Performs targeted anomaly identification at each semantic level, enabling precise localization of *where* and *why* an anomaly occurs.
 - ⚡ **Hybrid Detection Strategy**: Dynamically routes between efficient local pattern matching filtering and LLM-powered nested-aware detection, reducing LLM usage to only a small fraction of test data.
-- 🔌 **Detector-Agnostic**: KRONE is a general-purpose hierarchy framework — plug in any log anomaly detector and benefit from the hierarchical decomposition. Contributions & extensions are welcome!
+- 🔌 **Detector-Agnostic**: KRONE is a general-purpose hierarchy framework — plug in any log anomaly detector and benefit from the hierarchical decomposition. **Contributions & extensions are welcome!**
 - 🧠 **Knowledge Caching & Reuse**: KRONE-Seq embeddings, summaries, and LLM detection results are cached and reusable across runs, dramatically reducing redundant LLM calls and accelerating iterative analysis.
 - 💬 **Anomaly Detection & Explanation**: Beyond binary detection, KRONE provides LLM-generated natural language explanations for each detected anomaly, making results actionable and easy to interpret.
 - 🤝 **Human-Interactive Friendly**: Modular design with transparent intermediate outputs (KRONE-Tree, KRONE-Seqs, knowledge base) enables engineers to inspect, validate, and refine results at every stage.
