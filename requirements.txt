@@ -1,0 +1,11 @@
+numpy==1.23.5
+openai==2.24.0
+pandas==3.0.1
+python-dotenv==1.2.1
+Random_Word==1.0.11
+scikit_learn==1.8.0
+sentence_transformers==3.2.1
+torch==2.2.2
+tqdm==4.66.6
+transformers==4.46.2
+typing_extensions==4.15.0

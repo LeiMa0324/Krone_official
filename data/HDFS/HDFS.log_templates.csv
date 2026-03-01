@@ -1,0 +1,48 @@
+EventId,Raw_Event_id,EventTemplate,Occurrences,short_temp,prediction
+1,9b7aa7a3,Receiving block blk_<*> src: <*> dest: /<*>:50010,1723232,Receiving block from source to destination.,Normal
+2,2f313c72,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:50010 is added to blk_<*> size <*>,1719741,Block added to block map.,Normal
+3,2e1cf0aa,PacketResponder <*> for block blk_<*> <*>,1706728,PacketResponder for block.,Normal
+4,797b9c47,Received block blk_<*> of size <*> from /<*>,1706514,Received block of size from.,Normal
+5,b0023896,Deleting block blk_<*> file <*><*>,1402047,Deleting block file.,Normal
+6,bb837bbd,BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:50010,1396174,Block deleted from invalid set.,Abnormal
+7,81358cb3,BLOCK* NameSystem.allocateBlock: <*> blk_<*>,575061,Allocate block in NameSystem.,Normal
+8,6caae5bd,<*>:50010 Served block blk_<*> to /<*>,428726,Served block to /<*>.,Normal
+9,be6f070c,<*>:50010:Got exception while serving blk_<*> to /<*>:,356207,Got exception serving block.,Abnormal
+10,d23206c6,Verification succeeded for blk_<*>,120036,Verification succeeded.,Normal
+11,fa05ffa7,Received block blk_<*> src: <*> dest: /<*>:50010 of size <*>,7097,Received block from source to destination.,Normal
+12,53c00e5f,<*>:50010:Transmitted block blk_<*> to /<*>:50010,6937,Transmitted block to destination.,Normal
+13,d7507d1e,BLOCK* ask <*>:50010 to replicate blk_<*> to datanode(s) <*>:50010,6837,Replicate block to datanode.,Normal
+14,0d168c98,<*>:50010 Starting thread to transfer block blk_<*> to <*>:50010,6837,Starting block transfer thread.,Normal
+15,cf9b33dc,Unexpected error trying to delete block blk_<*>. BlockInfo not found in volumeMap.,5545,Error deleting block. BlockInfo not found.,Abnormal
+16,d6115493,writeBlock blk_<*> received exception java.io.IOException: Could not read from stream,3226,writeBlock exception: Could not read.,Abnormal
+17,46f6e99a,Receiving empty packet for block blk_<*>,1464,Empty packet received.,Abnormal
+18,b46e298a,BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_<*> on <*>:50010 size <*> But it does not belong to any file.,1288,Add stored block request received.,Normal
+19,fac2c191,BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_<*> on <*>:50010 size <*>,975,Redundant addStoredBlock request received.,Abnormal
+20,4ed2a0c0,BLOCK* ask <*>:50010 to replicate blk_<*> to datanode(s) <*>:50010 <*>:50010,165,Replicate block to datanodes.,Normal
+21,5e47c5c3,"<*>:50010 Starting thread to transfer block blk_<*> to <*>:50010, <*>:50010",165,Starting thread to transfer block.,Normal
+22,1995da3b,Exception in receiveBlock for block blk_<*> java.io.IOException: Connection reset by peer,75,Error in receiveBlock for block.,Abnormal
+23,1d48c538,writeBlock blk_<*> received exception java.io.IOException: Connection reset by peer,75,writeBlock exception: Connection reset.,Abnormal
+24,b3ef6470,writeBlock blk_<*> received exception <*>,67,Exception received in writeBlock.,Abnormal
+25,ceedf750,Changing block file offset of block blk_<*> from 0 to <*> meta file offset to <*>,65,Change block file offset.,Normal
+26,caed8b80,Exception in receiveBlock for block blk_<*> <*>,56,Error in receiveBlock function.,Abnormal
+27,6f83a284,PendingReplicationMonitor timed out block blk_<*>,47,Block replication monitor timed out.,Abnormal
+28,5832ad42,<*>:50010:Exception writing block blk_<*> to mirror <*>:50010,34,Error writing block to mirror.,Abnormal
+29,c859931b,PacketResponder blk_<*> <*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected <*> remote=/<*>:50010]. <*> millis timeout left.,33,PacketResponder interrupted while waiting for IO.,Abnormal
+30,5ac8245b,PacketResponder blk_<*> <*> Exception <*>,29,PacketResponder Exception occurred.,Abnormal
+31,190eb501,PacketResponder blk_<*> <*> Exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected <*> remote=/<*>:50010],22,SocketTimeoutException waiting for channel.,Abnormal
+32,f8ba9329,Exception in receiveBlock for block blk_<*> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected <*> <*> <*> millis timeout left.,16,Error in receiveBlock due to interrupted IO.,Abnormal
+33,47b367ea,writeBlock blk_<*> received exception java.io.IOException: <*> <*>,16,writeBlock received IOException,Abnormal
+34,1ff93be5,writeBlock blk_<*> received exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*> ch : java.nio.channels.SocketChannel[connected <*> remote=/<*>:50010],15,writeBlock received SocketTimeoutException: timeout waiting for channel.,Abnormal
+35,72988c9b,PacketResponder blk_<*> <*> Exception java.io.IOException: Connection reset by peer,11,PacketResponder encountered IOException.,Abnormal
+36,78ad37b3,Adding an already existing block blk_<*>,10,Add existing block.,Normal
+37,ffa3fe68,"writeBlock blk_<*> received exception java.io.IOException: Block blk_<*> is valid, and cannot be written to.",9,Block write exception: block is valid.,Normal
+38,60600882,<*>:50010:Failed to transfer blk_<*> to <*>:50010 got java.io.IOException: Connection reset by peer,9,Failed to transfer block due to connection reset.,Abnormal
+39,b55f27b2,writeBlock blk_<*> received exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected <*> <*> <*> millis timeout left.,7,writeBlock exception: InterruptedIOException.,Abnormal
+40,9111794a,PacketResponder blk_<*> <*> Exception java.io.IOException: Broken pipe,6,PacketResponder IOException: Broken pipe.,Abnormal
+41,ebe1d2fb,PacketResponder blk_<*> 1 Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <*> millis timeout left.,5,PacketResponder Exception InterruptedIOException waiting SocketChannel closed.,Abnormal
+42,a26fadbc,Exception in receiveBlock for block blk_<*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected <*> remote=/<*>:50010],5,SocketTimeoutException in receiveBlock.,Abnormal
+43,f52097f4,Reopen Block blk_<*>,5,Reopen block.,Normal
+44,0d527039,BLOCK* Removing block blk_<*> from neededReplications as it does not belong to any file.,4,Remove block from neededReplications.,Normal
+45,17ee882d,Exception in receiveBlock for block blk_<*> java.io.IOException: Broken pipe,3,Error in receiveBlock for block.,Abnormal
+46,fb314c6d,PacketResponder blk_<*> 1 Exception java.io.IOException: The stream is closed,2,PacketResponder Exception: stream closed.,Abnormal
+47,0555f7e9,writeBlock blk_<*> received exception java.net.NoRouteToHostException: No route to host,1,writeBlock received NoRouteToHostException.,Abnormal
