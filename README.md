@@ -3,12 +3,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2602.07303-b31b1b.svg)](https://arxiv.org/abs/2602.07303)
 [![Conference](https://img.shields.io/badge/ICDE-2026-blue.svg)](https://ieee-icde.org/)
 
-> **KRONE: Hierarchical and Modular Log Anomaly Detection**
->
-> Accepted at **ICDE 2026** (IEEE International Conference on Data Engineering)
->
-> Lei Ma, Jinyang Liu, Tieying Zhang, Peter M. VanNostrand, Dennis M. Hofmann, Lei Cao, Elke A. Rundensteiner, Jianjun Chen
-
 ## ✨ Highlights
 
 - 🌳 **Hierarchical Execution Recovery**: LLM automatically derives execution hierarchies (entity, action, status) from log templates, decomposing flat log sequence into coherent execution chunks (KRONE-Seqs) at entity, action, and status levels.
