@@ -29,7 +29,7 @@ ROOT → ENTITY → ACTION → STATUS
 
 ## 🚀 Quick Start
 
-We provide demo sampled datasets (~20K sequences each) under `data/` for quick experimentation. For full-scale datasets used in the paper, please refer to the original sources.
+We provide demo sampled datasets (~20K sequences each) under `data/` for quick experimentation. 
 
 ### 📦 Prerequisites
 
@@ -102,8 +102,8 @@ KRONE_official/
 ├── krone_hierarchy/         # Core krone execution orchestration
 │   ├── Krone_tree.py        # Hierarchical Krone tree construction
 │   ├── Node.py              # Node data structure
-│   ├── Krone_seq.py         # KRONE-Seqs representation ()
-│   ├── Krone_seq_manager.py # KRONE-Seqs management & automaton
+│   ├── Krone_seq.py         # KRONE-Seqs representation
+│   ├── Krone_seq_manager.py # KRONE-Seqs management
 │   ├── KnowledgeBase.py     # Knowledge base for KRONE-Seq, emebdding, summary, and LLM detection result, explanation
 │   ├── Automaton_graph.py   # State machine optional detector
 │   ├── PROMPTS.py           # LLM prompts
