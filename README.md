@@ -7,9 +7,9 @@
   <a href="https://leima0324.github.io/KRONE_Demo_official/"><img src="https://img.shields.io/badge/🌐_Demo-Online-green.svg" alt="Demo"></a>
 </p>
 
-<h3 align="center">🎮 <a href="https://leima0324.github.io/KRONE_Demo_official/">Try our interactive demo!</a></h3>
+<h2 align="center">🎮 <a href="https://leima0324.github.io/KRONE_Demo_official/">Try Our KRONE Interactive Demo!</a></h2>
 <p align="center">
-  Explore KRONE's hierarchical decomposition, anomaly detection, natural language explanation, and knowledge base browsing in your browser.
+  Explore KRONE's hierarchical decomposition, anomaly detection, natural language explanation, and knowledge base browsing in your browser!
 </p>
 <p align="center">
   <a href="https://leima0324.github.io/KRONE_Demo_official/">
