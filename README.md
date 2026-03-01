@@ -2,6 +2,9 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.07303-b31b1b.svg)](https://arxiv.org/abs/2602.07303)
 [![Conference](https://img.shields.io/badge/ICDE-2026-blue.svg)](https://ieee-icde.org/)
+[![Demo](https://img.shields.io/badge/🌐_Demo-Online-green.svg)](https://leima0324.github.io/KRONE_Demo_official/)
+
+🎮 **[Try our interactive demo!](https://leima0324.github.io/KRONE_Demo_official/)** — Explore KRONE's hierarchical decomposition, anomaly detection, natural language explanation, and knowledge base browsing in your browser.
 
 ## ✨ Highlights
 
