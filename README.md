@@ -1,10 +1,16 @@
-# KRONE: Hierarchical and Modular Log Anomaly Detection (Accepted at ICDE 2026)
+<h1 align="center">KRONE: Hierarchical and Modular Log Anomaly Detection</h1>
+<h3 align="center">Accepted at ICDE 2026</h3>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2602.07303-b31b1b.svg)](https://arxiv.org/abs/2602.07303)
-[![Conference](https://img.shields.io/badge/ICDE-2026-blue.svg)](https://ieee-icde.org/)
-[![Demo](https://img.shields.io/badge/🌐_Demo-Online-green.svg)](https://leima0324.github.io/KRONE_Demo_official/)
+<p align="center">
+  <a href="https://arxiv.org/abs/2602.07303"><img src="https://img.shields.io/badge/arXiv-2602.07303-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://ieee-icde.org/"><img src="https://img.shields.io/badge/ICDE-2026-blue.svg" alt="ICDE 2026"></a>
+  <a href="https://leima0324.github.io/KRONE_Demo_official/"><img src="https://img.shields.io/badge/🌐_Demo-Online-green.svg" alt="Demo"></a>
+</p>
 
-🎮 **[Try our interactive demo!](https://leima0324.github.io/KRONE_Demo_official/)** — Explore KRONE's hierarchical decomposition, anomaly detection, natural language explanation, and knowledge base browsing in your browser.
+<h3 align="center">🎮 <a href="https://leima0324.github.io/KRONE_Demo_official/">Try our interactive demo!</a></h3>
+<p align="center">
+  Explore KRONE's hierarchical decomposition, anomaly detection, natural language explanation, and knowledge base browsing in your browser.
+</p>
 
 ## ✨ Highlights
 
