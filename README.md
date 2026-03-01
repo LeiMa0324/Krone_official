@@ -11,6 +11,11 @@
 <p align="center">
   Explore KRONE's hierarchical decomposition, anomaly detection, natural language explanation, and knowledge base browsing in your browser.
 </p>
+<p align="center">
+  <a href="https://leima0324.github.io/KRONE_Demo_official/">
+    <img src="Krone_demo.png" width="85%" alt="KRONE Demo Screenshot">
+  </a>
+</p>
 
 ## ✨ Highlights
 
