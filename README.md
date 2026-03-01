@@ -55,7 +55,7 @@ Extract the hierarchical KRONE-Tree structure from raw log templates using `tree
 python tree_extraction/extractor.py
 ```
 
-> We have included pre-extracted KRONE-Trees in the repo, so you can skip this step and go directly to Step 2.
+> We have included pre-extracted KRONE-Trees in the repo (output/{dataset}/template_krone_tree.csv), so you can skip this step and go directly to Step 2.
 
 ### 🔬 Step 2: Run Detection
 
@@ -76,7 +76,7 @@ python HDFS.py
 python ThunderBird.py
 ```
 
-Expected results on the demo sampled datasets with default local detection config:
+Expected results on the demo sampled datasets (20k sequences) with default local detection config:
 
 | Dataset         | F1 | Precision | Recall | TP | FP | TN | FN |
 |-----------------|------|-----------|--------|------|------|------|------|
@@ -85,8 +85,7 @@ Expected results on the demo sampled datasets with default local detection confi
 | **ThunderBird** | 0.8368 | 0.7195 | 1.0000 | 159 | 62 | 3779 | 0 |
 
 
-For LLM integrated detection, first set your OpenAI API keys in the `.env` file:
-and then choose the LLM config predefined in the above demo_main scripts:
+For LLM integrated detection, first set your OpenAI API keys in the `.env` file, and then choose the LLM config predefined in the above demo_main scripts. 
 
 
 
@@ -113,7 +112,7 @@ KRONE_official/
 │   └── EXTRACT_PROMPTS.py
 ├── llm/                    # LLM configuration (OpenAI API)
 │   └── llm.py
-├── data/                   # Datasets
+├── data/                   # Datasets, contains the full templates and demo 20k sequences 
 │   ├── BGL/
 │   ├── HDFS/
 │   └── ThunderBird/
