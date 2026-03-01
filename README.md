@@ -13,7 +13,11 @@
 
 - 🌳 **Hierarchical Execution Recovery**: LLM automatically derives execution hierarchies (entity, action, status) from log templates, decomposing flat log sequence into coherent execution chunks (KRONE-Seqs) at entity, action, and status levels.
 - 🔍 **Modular Multi-Level Detection**: Performs targeted anomaly identification at each semantic level, enabling precise localization of *where* and *why* an anomaly occurs.
-- ⚡ **Hybrid Detection Strategy**: Dynamically routes between efficient local pattern matching filtering and LLM-powered nested-aware detection, reducing LLM usage to only a small fraction of test data. 🔌 **KRONE is detector-agnostic — plug in any log anomaly detector and benefit from the hierarchy. Contributions & extensions are welcome!**
+- ⚡ **Hybrid Detection Strategy**: Dynamically routes between efficient local pattern matching filtering and LLM-powered nested-aware detection, reducing LLM usage to only a small fraction of test data.
+- 🔌 **Detector-Agnostic**: KRONE is a general-purpose hierarchy framework — plug in any log anomaly detector and benefit from the hierarchical decomposition. Contributions & extensions are welcome!
+- 🧠 **Knowledge Caching & Reuse**: KRONE-Seq embeddings, summaries, and LLM detection results are cached and reusable across runs, dramatically reducing redundant LLM calls and accelerating iterative analysis.
+- 💬 **Anomaly Detection & Explanation**: Beyond binary detection, KRONE provides LLM-generated natural language explanations for each detected anomaly, making results actionable and easy to interpret.
+- 🤝 **Human-Interactive Friendly**: Modular design with transparent intermediate outputs (KRONE-Tree, KRONE-Seqs, knowledge base) enables engineers to inspect, validate, and refine results at every stage.
 - 🏆 **State-of-the-Art Performance**:  Experiments on three public benchmarks and one industrial dataset from ByteDance Cloud demonstrate the comprehensive improvement of KRONE,  F-1 of same detector with or without hierarchy), dataefficiency (data space 117.3× ↓), resource-efficieny (43.7× ↓) and
 interpretability. KRONE improves F1-score by 10.07% (82.76% → 92.83%) over prior methods, while reducing **LLM usage to 1.1%–3.3% of the test data size**.
 
