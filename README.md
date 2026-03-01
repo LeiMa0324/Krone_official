@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2602.07303"><img src="https://img.shields.io/badge/arXiv-2602.07303-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://ieee-icde.org/"><img src="https://img.shields.io/badge/ICDE-2026-blue.svg" alt="ICDE 2026"></a>
+  <a href="https://ieee-icde.org/2026/"><img src="https://img.shields.io/badge/ICDE-2026-blue.svg" alt="ICDE 2026"></a>
   <a href="https://leima0324.github.io/KRONE_Demo_official/"><img src="https://img.shields.io/badge/🌐_Demo-Online-green.svg" alt="Demo"></a>
 </p>
 
