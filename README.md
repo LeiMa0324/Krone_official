@@ -16,6 +16,11 @@
     <img src="Krone_demo.png" width="85%" alt="KRONE Demo Screenshot">
   </a>
 </p>
+<p align="center">
+  📂 <a href="https://github.com/LeiMa0324/KRONE_Demo_official">Demo Source Code</a>
+  &nbsp;|&nbsp;
+  Contributors: <a href="https://github.com/suhanic44">@suhanic44</a> <a href="https://github.com/EShanbaum">@EShanbaum</a> <a href="https://github.com/atassiad">@atassiad</a>
+</p>
 
 ## ✨ Highlights
 
