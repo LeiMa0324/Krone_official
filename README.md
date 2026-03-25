@@ -34,7 +34,6 @@ Recent approaches increasingly apply LLMs directly to raw log sequences. However
 
 👉 As a result, **naïve LLM-based log analysis is neither scalable nor reliable**
 
----
 
 ### 🌳 KRONE: Scaling Intelligence through Structure
 
@@ -48,7 +47,6 @@ KRONE recovers latent execution structure and enables:
 - Selective and minimal use of LLMs  
 - Reusable knowledge across sequences  
 
----
 
 ### 💡 Key Takeaway
 
