@@ -22,6 +22,39 @@
   Contributors: <a href="https://github.com/suhanic44">@suhanic44</a> <a href="https://github.com/EShanbaum">@EShanbaum</a> <a href="https://github.com/atassiad">@atassiad</a>
 </p>
 
+## 🔥 Why KRONE Matters in the LLM Era
+
+### 🚫 Scaling LLMs is Not Enough for Log Analysis
+
+Recent approaches increasingly apply LLMs directly to raw log sequences. However, simply scaling LLM usage introduces fundamental challenges:
+
+- 📉 Long sequences break reasoning due to context limits and lost-in-the-middle effects  
+- 💸 Per-sequence LLM inference is prohibitively expensive at production scale  
+- 🧩 Flat logs lack structure, making reasoning unstable and hard to generalize  
+
+👉 As a result, **naïve LLM-based log analysis is neither scalable nor reliable**
+
+---
+
+### 🌳 KRONE: Scaling Intelligence through Structure
+
+Instead of treating logs as flat sequences, KRONE introduces a different perspective:
+
+> **Log anomaly detection should be a structured, hierarchical reasoning problem**
+
+KRONE recovers latent execution structure and enables:
+
+- Structured reasoning over semantic execution units  
+- Selective and minimal use of LLMs  
+- Reusable knowledge across sequences  
+
+---
+
+### 💡 Key Takeaway
+
+> KRONE enables scalable LLM-based log analysis **not by increasing model usage**,  
+> but by **reducing complexity through hierarchical abstraction and modular reasoning**.
+
 ## ✨ Highlights
 
 ### 🏗️ Framework Design
