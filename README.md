@@ -22,6 +22,10 @@
   Contributors: <a href="https://github.com/suhanic44">@suhanic44</a> <a href="https://github.com/EShanbaum">@EShanbaum</a> <a href="https://github.com/atassiad">@atassiad</a>
 </p>
 
+<p align="center">
+  <img src="Krone_position.png" width="55%" alt="KRONE Positioning">
+</p>
+
 ## 🔥 Why KRONE Matters in the LLM Era
 
 ### 🚫 Scaling LLMs is Not Enough for Log Analysis
@@ -75,6 +79,10 @@ KRONE recovers latent execution structure and enables:
 
 
 ## 📖 Overview
+
+<p align="center">
+  <img src="Krone_arch.png" width="55%" alt="KRONE Architecture">
+</p>
 
 Logs originate from nested component executions with clear structural boundaries, but this organization is lost when stored as flat sequences. KRONE recovers this structure by constructing a hierarchical Log Abstraction Model and performing modular anomaly detection at three abstraction levels:
 
