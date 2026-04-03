@@ -22,11 +22,11 @@
   Contributors: <a href="https://github.com/suhanic44">@suhanic44</a> <a href="https://github.com/EShanbaum">@EShanbaum</a> <a href="https://github.com/atassiad">@atassiad</a>
 </p>
 
+## 🔥 Why KRONE Matters in the LLM Era
+
 <p align="center">
   <img src="Krone_position.png" width="55%" alt="KRONE Positioning">
 </p>
-
-## 🔥 Why KRONE Matters in the LLM Era
 
 ### 🚫 Scaling LLMs is Not Enough for Log Analysis
 
