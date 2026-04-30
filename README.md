@@ -4,6 +4,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2602.07303"><img src="https://img.shields.io/badge/arXiv-2602.07303-b31b1b.svg" alt="arXiv"></a>
   <a href="https://ieee-icde.org/2026/"><img src="https://img.shields.io/badge/ICDE-2026-blue.svg" alt="ICDE 2026"></a>
+  <a href="https://leima0324.github.io/krone/"><img src="https://img.shields.io/badge/🏠_Project_Page-Online-orange.svg" alt="Project Page"></a>
   <a href="https://leima0324.github.io/KRONE_Demo_official/"><img src="https://img.shields.io/badge/🌐_Demo-Online-green.svg" alt="Demo"></a>
 </p>
 
@@ -28,6 +29,15 @@
   <img src="Krone_position.png" width="55%" alt="KRONE Positioning">
 </p>
 
+| 💡 Cheaper detectors, sharper results | 💰 Smarter LLMs, lighter bills |
+|---|---|
+| **Pattern Matching** &nbsp;**42% → 88%** F1-score with or without KRONE (using only 1% training data) | **LLM detection cost** &nbsp;**$2.89 with GPT-5** on 1.1M log messages (10% HDFS) |
+
+Plus:
+- ✅ Knowledge accumulation & reuse across sequences
+- ✅ Automatic anomaly localization inside log sequences
+- ✅ Knowledge-grounded LLM explanations
+
 ### 🚫 Scaling LLMs is Not Enough for Log Analysis
 
 Recent approaches increasingly apply LLMs directly to raw log sequences. However, simply scaling LLM usage introduces fundamental challenges:
@@ -51,11 +61,27 @@ KRONE recovers latent execution structure and enables:
 - Selective and minimal use of LLMs  
 - Reusable knowledge across sequences  
 
+### 📊 Real-World Numbers
 
-### 💡 Key Takeaway
+On **56,930 HDFS test sequences (10% of whole data, 1.1 Million log messages)** with **gpt-4.1-mini**, KRONE issues only **967 LLM calls** (1.19M input / 140K output tokens) — measured cost **$0.70**. Across model tiers, KRONE delivers a consistent **~59× cost reduction**, processing the full test split for **under $3 even with gpt-5**.
 
-> KRONE enables scalable LLM-based log analysis **not by increasing model usage**,  
-> but by **reducing complexity through hierarchical abstraction and modular reasoning**.
+#### 📉 Amortized Cost Curve
+
+Per-sequence cost saturates as KRONE's knowledge base builds, while naive LLM usage grows linearly with the number of sequences.
+
+<p align="center">
+  <img src="amortized_hdfs_v2.png" width="65%" alt="Amortized LLM cost on HDFS dataset">
+</p>
+
+#### 💵 Cross-Model Cost Breakdown
+
+The first row reports the actual money spent using GPT-4.1-mini; other rows project the cost of larger models using the same token usage. **Naive** = one LLM call per sequence at mean tokens (1,234 in / 145 out).
+
+| Model | $/M in | $/M out | KRONE | Naive | ↓ |
+|---|---:|---:|---:|---:|---:|
+| gpt-4.1-mini *(measured)* | 0.40 | 1.60 | **$0.70** | $41.33 | ~59× |
+| gpt-4.1 | 2.00 | 8.00 | **$3.51** | $206.55 | ~59× |
+| gpt-5 | 1.25 | 10.00 | **$2.89** | $170.39 | ~59× |
 
 ## ✨ Highlights
 
